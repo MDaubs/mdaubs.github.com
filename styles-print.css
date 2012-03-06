@@ -1,0 +1,27 @@
+.other { width: 900px; }
+.employment-history { width: 900px; }
+#footer, #header { display: none; }
+#main { background-image: none; }
+ul.employers .position { clear: none; }
+ul.employers .name { margin-right: 20px; }
+.other { padding-top: 60px; }
+.print-on-left {
+  float: left; 
+  width: 440px; 
+  margin-right: 10px; 
+}
+.print-on-right {
+  float: right; 
+  width: 440px; 
+  margin-left: 10px; 
+}
+#print-disclaimer { 
+  display: block;
+  font-weight: bold;
+  color: #006000;
+  text-align: center;
+}
+.cont { 
+  display: block; 
+  page-break-after: always;
+}
