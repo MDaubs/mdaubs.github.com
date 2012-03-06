@@ -67,6 +67,10 @@ img.ruby {
   color: #0A245F;
   text-decoration: none;
 }
+#footer a {
+  color: #0A245F;
+}
+#footer a:hover,
 .intro .top-contact a:hover {
   color: #1F4292;
 }
@@ -116,12 +120,12 @@ ul.stats li strong {
 ul.stats li span {
   color: #0A245F;
   display: block;
-  font-size: 13px;
+  font-size: 13.5px;
 }
 .tagline {
   clear: both;
   margin-top: 80px;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
 }
 .tagline .subtag {
@@ -149,8 +153,7 @@ ul.employers {
   margin: 0 11px;
 }
 ul.employers > li {
-  margin-bottom: 19px;
-  border-bottom: 1px solid #DDDDDD;
+  margin-bottom: 40px;
 }
 ul.employers > li > ul { margin-bottom: 20px; }
 ul.employers > li > ul > li,
@@ -180,6 +183,8 @@ ul.employers .position {
   border-top: 2px solid #DDDDDD;
   font-size: 12px;
   height: 60px;
+  text-align: center;
+  padding-top: 20px;
 }
 .clearfix { clear: both; }
 #print-disclaimer, .cont { display: none; }

@@ -1,3 +1,9 @@
+body {
+  font-size: 13px;
+}
+.resume {
+  zoom: 0.9;
+}
 .other { width: 900px; }
 .employment-history { width: 900px; }
 #footer, #header { display: none; }
@@ -25,3 +31,4 @@ ul.employers .name { margin-right: 20px; }
   display: block; 
   page-break-after: always;
 }
+.dont-print { display: none; }
